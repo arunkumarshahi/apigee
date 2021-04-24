@@ -1,9 +1,9 @@
 # apigee
-# policies - define the policy which can be plugged as steps in flow . It is associated with jsvascript resource for custom code execution.
-# proxy endpoint(intiate the flow and specifiy diffrent flow logic to execute to process request and reponse before sending to client )
-# KVM - key value map like environment variables for each environment. This needs to be plugged before intiating preflow and post flow.
-# Target endppoint - http or nodejs endpoint invoked from proxy endpoint . like calling a microservice after processing requet from gateway.
-# Resources - javascript code for custom logic execution.
+## policies - define the policy which can be plugged as steps in flow . It is associated with jsvascript resource for custom code execution.
+## proxy endpoint(intiate the flow and specifiy diffrent flow logic to execute to process request and reponse before sending to client )
+## KVM - key value map like environment variables for each environment. This needs to be plugged before intiating preflow and post flow.
+## Target endppoint - http or nodejs endpoint invoked from proxy endpoint . like calling a microservice after processing requet from gateway.
+## Resources - javascript code for custom logic execution.
 
 our flow look like 
 
