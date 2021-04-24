@@ -1,4 +1,7 @@
 # apigee
+
+### Usecase : create an adapter at apigee, which will receive the event from external source, send the immediate notification to caller and keep proceesing request asynchronously in background. 
+
 ###### policies - define the policy which can be plugged as steps in flow . It is associated with jsvascript resource for custom code execution.
 ###### proxy endpoint(intiate the flow and specifiy diffrent flow logic to execute to process request and reponse before sending to client )
 ###### KVM - key value map like environment variables for each environment. This needs to be plugged before intiating preflow and post flow.
