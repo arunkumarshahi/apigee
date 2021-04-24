@@ -7,7 +7,7 @@
 
 our flow look like 
 
-KVM (to read endpoint url ) --> preflow --> postflow --> flow --> step -->plicy --> jsc
+KVM (to read endpoint url ) --> preflow --> postflow --> flow --> step -->plicy --> jsc --> target ep
 
 it reads endppont url from kvm and which can be accessed using - 
 ######  var serverURLs= context.getVariable("targetEP");
