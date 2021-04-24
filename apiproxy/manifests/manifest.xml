@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JavaScript-Policy" version="SHA-512:ad7f5626a50d79a24d94f531fa1bdbdd799e26a2488fab550ccce27387a0f56e3830c013c52af9607f13be391e4d8fff87895090769cc8baf79a66c7ee11bbe0"/>
+        <VersionInfo resourceName="Key-Value-Map-Operations-1" version="SHA-512:156825c08fbca38c60a4e0e3ab06f62467520a10d2e5e55272bc893ed22019218579c386cbdcb8346946fa9404b820cb830ab22117c2d7ed74b0054f192bbce0"/>
+        <VersionInfo resourceName="Service-Callout-1" version="SHA-512:796c42b5be7a5d87fc932fca271deab722dec44c473ef2baaa3dc829c597608404146aec5b7d55d27dcad790dd07fd5bde051a139b0d401eb3cf2d3b5ae29dbf"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:9a4302ae6b7e49796834b2917682d6801a2ad5b61d7a872c0bfc853fb273b7a4c8b252325819902fc9e6a75691ace8f72a375a38795885562490e6d916278e5e"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://Script-1.js" version="SHA-512:a186133f1b0724267d14da9e14f050b3e0eb2fac1cbba48290fa42f13dbf2dc87f537fa6e9477fe2cf8a5c973628ff77904b268cd4ae5f4a1333ad5d557005b1"/>
+        <VersionInfo resourceName="node://RequestAccessToExistingEventNotification.js" version="SHA-512:b0e91a1d3e4c4af081ebfb9897d40e09bf063e1967559ebe05f13a2b274071f789be1fe2dcc2c9aad470e0a089823d55ec986a800f48b37bdb98f11240a33196"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="TargetEndpoint-1" version="SHA-512:c531079dbfa21ddc8d468b8bd0171db20e54f74436446d2d06a2b0ddccd24c0576a25e911460cb4de1ab4882b0a84b53cb1c118295a045a2a1a75995cf70da89"/>
+    </TargetEndpoints>
+</Manifest>

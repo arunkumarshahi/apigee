@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="hello-plane-node">
+    <Basepaths>/hello-plane-node</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1619248089264</CreatedAt>
+    <CreatedBy>arunkumarshahi@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>hello-plane-node</DisplayName>
+    <LastModifiedAt>1619281243841</LastModifiedAt>
+    <LastModifiedBy>arunkumarshahi@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:a35f9e393fcfc4d4497ae7ef417a80f72215cf2aee8ff97b19949b3a221e9893fbebce3e004edd2b7cb55c96594e0e454f8ff50f014ecc509f8ba43a79ab86da:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>JavaScript-Policy</Policy>
+        <Policy>Key-Value-Map-Operations-1</Policy>
+        <Policy>Service-Callout-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://RequestAccessToExistingEventNotification.js</Resource>
+        <Resource>jsc://Script-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>TargetEndpoint-1</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
