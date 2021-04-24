@@ -39,11 +39,7 @@ This target url is set in kvm policy as
  var serverURLs= context.getVariable("targetEP");
  print("This is custom target - 1 :: "+serverURLs);
  try {
-	var serverURLsArray = serverURLs.replace(/ /g, '').split(',');
-    //var headers = {'Content-Type': 'application/json','vf-trace-transaction-id': context.getVariable('vf.trace.transaction.id')};
-	serverURLsArray.forEach(serverURL => {
-	print("serverURL ::",serverURL);
-	var headers = {
+ var headers = {
       'Content-Type' : 'application/json'
     };
    var myRequest = new Request(serverURL, "POST", headers, getPayload);
