@@ -13,6 +13,7 @@ it reads endppont url from kvm and which can be accessed using -
 #  var serverURLs= context.getVariable("targetEP");
 
 This target url is set in kvm policy as 
+```
  <KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="Key-Value-Map-Operations-1" mapIdentifier="KVM_Hello_plane_node">
     <DisplayName>Key Value Map Operations-1</DisplayName>
     <Properties/>
@@ -23,17 +24,16 @@ This target url is set in kvm policy as
    </Get>
     <Scope>environment</Scope>
  </KeyValueMapOperations>
-
+```
 
 # invoke external endpoint asychronously an return notification to caller.
-
+```
  <RouteRule name="GoNowhere">
         <Condition>request.header.routeTo = "xxx"</Condition>
     </RouteRule>
-    
+```    
     Async invocation which is added as a step will call flollowing js -
-    
-     //console.log("This is custom target");
+    ```
    var getPayload = context.getVariable("request.content");
  print("This is custom request - 1 :: "+getPayload);
  var serverURLs= context.getVariable("targetEP");
@@ -59,3 +59,4 @@ This target url is set in kvm policy as
 } catch (err) {
     throw err;
 }
+```
