@@ -55,3 +55,13 @@ This target url is set in kvm policy as
     throw err;
 }
 ```
+
+##### Added shared flow
+ Basic authntication and quota managment  defined as shared flow 
+ Added inot the main flow as flow callout 
+ 
+ ```
+ curl -X POST  -H "routeTo:xxx"  -d @data.json  -i "https://arunkumarshahi-eval-test.apigee.net/hello-plane-node?username=arun&password=kumar"
+ 
+ ```
+ note - data.json is any json file 
