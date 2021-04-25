@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Basic-Authentication" version="SHA-512:91a8be390e5f54824eb71b6e0bfa93053c1835512850cba0160551afbe072f2655d279f69c66872db53288a07aea0a4f62fc9ef9873836efbeafd33789d58b82"/>
+        <VersionInfo resourceName="QuotaManagmenet" version="SHA-512:4134156d115699a06366b47c956b49091d08ca48bfcf3a446371bc803d3978e7bc790de868828cd048d8bf9f90a78b3f3209f8eaf5335f3facac61adb952ef2b"/>
+        <VersionInfo resourceName="Verify-API-Key" version="SHA-512:6cc90d8f102003c2a3122242902885575769f0c45c2867c26c9cad4da5aae38be27599e5b51325ba6c63fae14e89cb4bf9f4b46b83e85cce0db66ae6704c7eba"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources/>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:f5f585d379da152e31354f0624aa6f6994ec72a3521e6d146a94146e9b0743dabceecd01404bba5c9af516e68f2a038e6f23031ee438ebd0648d01bf165065d6"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

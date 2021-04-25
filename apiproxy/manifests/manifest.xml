@@ -3,10 +3,11 @@
     <Policies>
         <VersionInfo resourceName="JavaScript-Policy" version="SHA-512:ad7f5626a50d79a24d94f531fa1bdbdd799e26a2488fab550ccce27387a0f56e3830c013c52af9607f13be391e4d8fff87895090769cc8baf79a66c7ee11bbe0"/>
         <VersionInfo resourceName="Key-Value-Map-Operations-1" version="SHA-512:156825c08fbca38c60a4e0e3ab06f62467520a10d2e5e55272bc893ed22019218579c386cbdcb8346946fa9404b820cb830ab22117c2d7ed74b0054f192bbce0"/>
+        <VersionInfo resourceName="SF-Flow-Callout" version="SHA-512:3c34c81ee6dc1e8a8d050ee5108810cae68557160f7471fb5188b8ce5a260caf41a8f308e4fe952ad7e6c051d0e806820a394ac6b83eed02bf9d0de5f4f88250"/>
         <VersionInfo resourceName="Service-Callout-1" version="SHA-512:796c42b5be7a5d87fc932fca271deab722dec44c473ef2baaa3dc829c597608404146aec5b7d55d27dcad790dd07fd5bde051a139b0d401eb3cf2d3b5ae29dbf"/>
     </Policies>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:9a4302ae6b7e49796834b2917682d6801a2ad5b61d7a872c0bfc853fb273b7a4c8b252325819902fc9e6a75691ace8f72a375a38795885562490e6d916278e5e"/>
+        <VersionInfo resourceName="default" version="SHA-512:4194231253236fdadac2a0ad94a6eb6b5086237eb5a4c89bacd48e4233e8145ed077073388354dac3adc68c4b61b2047d6b7846154a80b873b4482186b9c1113"/>
     </ProxyEndpoints>
     <Resources>
         <VersionInfo resourceName="jsc://Script-1.js" version="SHA-512:a186133f1b0724267d14da9e14f050b3e0eb2fac1cbba48290fa42f13dbf2dc87f537fa6e9477fe2cf8a5c973628ff77904b268cd4ae5f4a1333ad5d557005b1"/>

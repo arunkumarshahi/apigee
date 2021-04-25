@@ -5,6 +5,9 @@
             <Step>
                 <Name>Key-Value-Map-Operations-1</Name>
             </Step>
+            <Step>
+                <Name>SF-Flow-Callout</Name>
+            </Step>
         </Request>
         <Response/>
     </PreFlow>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="1" name="SF-QuotaManagmenet">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1619319948006</CreatedAt>
+    <CreatedBy>arunkumarshahi@gmail.com</CreatedBy>
+    <Description>undefined</Description>
+    <DisplayName>SF-QuotaManagmenet</DisplayName>
+    <LastModifiedAt>1619321416774</LastModifiedAt>
+    <LastModifiedBy>arunkumarshahi@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:08ce2c6f583d78ca2741c433cacbbdc493c839cef54b4f890c0c5b1d9a5cd4a27c5b63ac4ea6008486dd238b5bbe234f304683393f8d202cb4faa07f6ee618be:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>Basic-Authentication</Policy>
+        <Policy>QuotaManagmenet</Policy>
+        <Policy>Verify-API-Key</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>
